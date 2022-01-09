@@ -1,0 +1,33 @@
+
+.col{
+  padding: 15px;
+  margin: 25px 5px 5px 5px;
+}
+#carouselExampleControl{
+  padding-left: 300px;
+  background-color: rgb(31, 214, 153);
+}
+.card:hover{
+  box-shadow:  0.5px 0.5px 0.5px 0.5px  black;
+}
+.a1{
+background-color: black;
+}
+.a2{
+  background-color: rgb(62, 139, 116);
+}
+.a3{
+  background-color: #D5D5D5;
+}
+.d-block{
+  
+  margin-left: 25%;
+}
+li{
+  
+  
+  color: aqua;
+}
+.top{
+  height: 50px;
+}

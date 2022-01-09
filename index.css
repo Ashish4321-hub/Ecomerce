@@ -1,0 +1,23 @@
+body{
+  text-align: center;
+  margin-top: 100px;
+}
+img{
+  margin: 25px 25px 25px 25px;
+  border-radius: 10px;
+}
+.takein{
+  width: 100%;
+
+  padding: 1px 40%;
+}
+p{
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.forget{
+  margin-right: 200px;
+}
+button{
+  color: azure;
+}
