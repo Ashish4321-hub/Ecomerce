@@ -1,13 +1,5 @@
-/*const successCallback =(position)=> {
-  document.querySelector(".city").innerHTML=position;
- //console.log(position);
-};
-const errorCallback = (error) => {
-console.console.error(error);
-};
-navigator.geolocation.getCurrentPosition(successCallback,errorCallback,{enableHighAccuracy:true,timeout:5000});*/
-/////
-// Step 1: Get user coordinates
+
+
 function getCoordintes() {
 	var options = {
 		enableHighAccuracy: true,
@@ -33,13 +25,13 @@ function getCoordintes() {
 	navigator.geolocation.getCurrentPosition(success, error, options);
 }
 
-// Step 2: Get city name
+
 function getCity(coordinates) {
 	var xhr = new XMLHttpRequest();
 	var lat = coordinates[0];
 	var lng = coordinates[1];
 
-	// Paste your LocationIQ token below.
+	
 	xhr.open('GET', "https://us1.locationiq.com/v1/reverse.php?key=pk.4f60336a9e0d3a374efab0b0923576ee&lat=" +
 	lat + "&lon=" + lng + "&format=json", true);
 	xhr.send();
