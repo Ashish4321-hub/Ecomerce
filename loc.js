@@ -1,4 +1,8 @@
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1b51f0ee29e0f95b168103095ee7a2e5bf92df3c
 function getCoordintes() {
 	var options = {
 		enableHighAccuracy: true,
@@ -30,7 +34,7 @@ function getCity(coordinates) {
 	var lat = coordinates[0];
 	var lng = coordinates[1];
 
-	// Paste your LocationIQ token below.
+	
 	xhr.open('GET', "https://us1.locationiq.com/v1/reverse.php?key=pk.4f60336a9e0d3a374efab0b0923576ee&lat=" +
 	lat + "&lon=" + lng + "&format=json", true);
 	xhr.send();
