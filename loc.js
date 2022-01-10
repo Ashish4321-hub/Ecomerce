@@ -1,20 +1,11 @@
-/*const successCallback =(position)=> {
-  document.querySelector(".city").innerHTML=position;
- //console.log(position);
-};
-const errorCallback = (error) => {
-console.console.error(error);
-};
-navigator.geolocation.getCurrentPosition(successCallback,errorCallback,{enableHighAccuracy:true,timeout:5000});*/
-/////
-// Step 1: Get user coordinates
+
 function getCoordintes() {
 	var options = {
 		enableHighAccuracy: true,
 		timeout: 5000,
 		maximumAge: 0
 	};
-//
+
 	function success(pos) {
 		var crd = pos.coords;
 		var lat = crd.latitude.toString();
@@ -33,7 +24,7 @@ function getCoordintes() {
 	navigator.geolocation.getCurrentPosition(success, error, options);
 }
 
-// Step 2: Get city name
+
 function getCity(coordinates) {
 	var xhr = new XMLHttpRequest();
 	var lat = coordinates[0];
