@@ -30,4 +30,14 @@ li{
 }
 .top{
   height: 50px;
+  padding: 2%;
+}
+.card{
+  padding: 1%;
+}
+.container{
+  padding: 5%;
+}
+.btn1 {
+  display: block;
 }
