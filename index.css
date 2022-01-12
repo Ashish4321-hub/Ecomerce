@@ -4,13 +4,15 @@ body{
   background-image: url('https://source.unsplash.com/1600x900/?shopping');
 }
 img{
-  margin: 25px 25px 25px 25px;
+  padding: 25px 25px 25px 25px;
   border-radius: 10px;
+ max-width: 100%;
 }
 .takein{
-  width: 100%;
-
-  padding: 1px 40%;
+ max-width: 100%;
+padding-left: 25%;
+padding-right:25% ;
+  
 }
 p{
   margin-top: 20px;
@@ -29,7 +31,7 @@ button{
 }
 .mat{
   background-color: #00000066;
-  padding: 1%;
+  padding: 0.5rem;
   margin-left: 25%;
   margin-right: 25%;
   border-radius: 1%;
